@@ -17,4 +17,4 @@ $rm1 = $container->getReaderManager();
 $rm2 = $container->getReaderManager();
 
 // prove they are the same
-print $rm1 === $rm2; // true
+print $rm1 === $rm2; // true, same instance
